@@ -4,18 +4,19 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .nav-bar{
     height: 50px;
+    margin-right: 80px;
 }
 .navbar a{
-    padding-left:20px;
+    padding-right: 30px;
     text-decoration: none;
     color: black;
     display: inline;
     float: right;
-    margin-right: 40px;
+    
 }
 
 h1{
@@ -26,7 +27,6 @@ h1{
     float: left;
     margin-left: 5%;
     padding: 2%;
-    border: 1px solid rgb(100, 98, 98);
 }
 .orange-highlight{
     color: tomato;
@@ -61,6 +61,9 @@ h1{
 .last-work img{
     width: 100%;   
 }
+.work-inquiry{
+    background-color: gainsboro;
+}
 .inquiry{
     width: 40%;
     height: 300px;
@@ -88,10 +91,12 @@ h1{
 #hello-design{
     margin-left: 400px;
     text-align: center;
+    
 
 }
 #hello-design img{
     width: 5%;
+    padding-left: 15px;
 }
 #hello-design h4{
     color: gray;
