@@ -12,10 +12,9 @@ h1{
 }
 .half-width{
     width: 40%;
-    height:500px ;
     float: left;
     margin-left: 5%;
-    padding:2%;
+    padding: 2%;
     border: 1px solid rgb(100, 98, 98);
 }
 .orange-highlight{
@@ -35,7 +34,7 @@ h1{
 .last-work{
     width: 30%;
     float: left;
-    margin: 5px 10px;
+    margin: 20px 10px;
     padding-left: 20px;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -51,15 +50,39 @@ h1{
 .last-work img{
     width: 100%;   
 }
+.inquiry{
+    width: 40%;
+    height: 200px;
+}
 #box{
     background-image: url(images/Group_33094_1.png);
-    border-radius: 100px;
-    background-repeat: no-repeat;
     background-position: center;
-    background-size:60%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
     padding: 25px;
-    margin: 50px;
 }
-.work-inquiry h2{
-    
+#box h2{ 
+    width: fit-content;
+    margin-top: 80px;
+    color: black;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: chartreuse;
+}
+#button{
+    margin-left: 400px;
+    width: max-content;
+    margin-bottom: 200px;
+}
+#hello-design{
+    margin-left: 400px;
+    text-align: center;
+
+}
+#hello-design img{
+    width: 5%;
+}
+#hello-design h4{
+    color: gray;
 }
